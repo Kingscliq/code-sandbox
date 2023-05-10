@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
+// Assignment
+// Count App with two buttons, to incement and decrement
+// I also want to see the Count Value
+
 function App() {
+  const name = 'Favour';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div onClick={() => alert('Hello World')} className="App">
+      Introducing JSX to {name}
+      <p></p>
+      <aside></aside>
+      <section></section>
     </div>
   );
 }
